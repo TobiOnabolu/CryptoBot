@@ -1,9 +1,11 @@
-from strategy import Strategy
-from exchange.binance import Binance
+#from strategy import Strategy
+#from exchange.binance import Binance
+import pandas as pd
+
 
 
 #connecting to an exhange
-exchange = Binance(key='', secret='')
+#exchange = Binance(key='', secret='')
 
 #set currency, asset, strategy
 
@@ -13,7 +15,7 @@ exchange = Binance(key='', secret='')
 
 
 #starts the program
-runner = Strategy(exchange)
+#runner = Strategy(exchange)
 
 #runner will have to call ._run to begin our strategy
 
