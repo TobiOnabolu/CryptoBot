@@ -1,8 +1,13 @@
 #from strategy import Strategy
 #from exchange.binance import Binance
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
+password = os.getenv('PASS')
+print(password)
 
 #connecting to an exhange
 #exchange = Binance(key='', secret='')
